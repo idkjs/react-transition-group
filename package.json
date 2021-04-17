@@ -5,6 +5,10 @@
   "main": "lib/cjs/index.js",
   "module": "lib/esm/index.js",
   "scripts": {
+    "build:re": "bsb -make-world",
+    "watch": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "format": "bsb -make-world format",
     "test": "npm run lint && npm run testonly",
     "testonly": "jest --verbose",
     "tdd": "jest --watch",
@@ -60,9 +64,14 @@
     "@babel/runtime": "^7.5.5",
     "dom-helpers": "^5.0.1",
     "loose-envify": "^1.4.0",
-    "prop-types": "^15.6.2"
+    "prop-types": "^15.6.2",
+    "@rescript/std": "^9.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "@rescript/react": "^0.10.2"
   },
   "devDependencies": {
+    "rescript": "^9.1.1",
     "@babel/cli": "^7.8.4",
     "@babel/core": "^7.9.0",
     "@restart/hooks": "^0.3.22",

@@ -1,0 +1,12 @@
+####{BSB GENERATED: NO EDIT
+B lib/bs
+FLG -open RescriptTransitionGroup
+FLG -ppx '/Users/mando/Github/react-transition-group/node_modules/rescript/darwin/bsc.exe -as-ppx -bs-jsx 3'
+S /Users/mando/Github/react-transition-group/node_modules/rescript/lib/ocaml
+B /Users/mando/Github/react-transition-group/node_modules/rescript/lib/ocaml
+FLG -w +a-4-9-20-40-41-42-50-61-102
+S /Users/mando/Github/react-transition-group/node_modules/@rescript/react/lib/ocaml
+B /Users/mando/Github/react-transition-group/node_modules/@rescript/react/lib/ocaml
+S src/rescript
+B lib/bs/src/rescript
+####BSB GENERATED: NO EDIT}
